@@ -1,4 +1,6 @@
 // Tic Tac Toe game
+
+// Preproccesor Directives: 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -6,8 +8,10 @@
 
 #define SIZE 3
 
+// Global Variables: 
 char board[SIZE][SIZE];
 
+// Functions used: 
 void drawBoard();
 void pvp();
 void xMove();
